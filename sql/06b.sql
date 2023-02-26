@@ -20,4 +20,5 @@ SELECT
 FROM filmid
 LEFT JOIN inv
 USING(film_id)
-WHERE inv.film_id IS NULL;
+WHERE inv.film_id IS NULL
+ORDER BY 1;
