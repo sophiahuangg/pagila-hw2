@@ -31,5 +31,6 @@ FROM actor
 WHERE actor.actor_id IN(
     SELECT
         actors.actor_id
-    FROM actors);
+    FROM actors)
+ORDER BY 1;
 
