@@ -7,6 +7,7 @@
  * The postgresqltutorial.com website has a solution for this problem.
  */
 
+WITH avgrent AS(
     SELECT 
         avg(rental_rate) AS avrr
     FROM film)
